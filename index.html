@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Antônio Clancy</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<header>Antônio Clancy</header>
+	<div class="box">
+	
+		<table>
+			<tr>
+				<td>Arma utilizada:</td>
+				<td><input type="number" name="" id="weapon" max="3" min="1"></td>
+			</tr>
+			<tr>
+				<td>Quantidade de vida restante:</td>
+				<td><input type="number" name="" id="restant_life" max="100" min="0"></td>
+			</tr>
+			<tr>
+				<td>Quantidade de vida que lhe foi tirada:</td>
+				<td><input type="number" name="" id="lost_life" min="0"></td>
+			</tr>
+			<tr>
+				<td>Quantos itens coletou na fase:</td>
+				<td><input type="number" name="" id="collects" min="0"></td>
+			</tr>
+			<tr>
+				<td>Tempo gasto, em segundos, para completar a fase:</td>
+				<td><input type="number" name="" id="duration" min="1"></td>
+			</tr>
+			<tr>
+				<td>Dificuldade jogada:</td>
+				<td><select type="text" name="" id="difficulty">
+					<option value="nothing"> -- selecione --</option>
+					<option value="M"> M - Molezinha</option>
+					<option value="B"> B - De Boas</option>
+					<option value="P"> P - Deixa com o pai</option>
+
+				</select></td>
+			</tr>
+		</table>
+		<div class="buttons">
+			<button onclick="calcular()">Calcular pontuação</button>
+		</div>
+		
+		
+		<div class="resume">
+			<div class="final_score"><div>Pontuação final:</div><h2 id="score_points">---</h2></div>
+
+			<div class="category"><div>Classificação:</div>	<h2 id="category_letter">---</h2></div>
+		</div>
+	</div>
+	<footer>&copyBrightProjekt</footer>
+	<script type="text/javascript" src="points.js"></script>
+</body>
+</html>

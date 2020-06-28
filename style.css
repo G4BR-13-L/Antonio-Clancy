@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Spartan:400,500,600,700,800,900&display=swap');
+
+
+body{
+	background-color: #00ae4a;
+
+	font-family: 'Spartan', sans-serif;
+	font-weight: 700; 
+}
+.box{
+	width:600px;
+	background-color: white;
+	padding: 20px;
+	border-radius:30px;
+	margin:20px auto;
+	box-align:center;
+
+}
+header, footer{
+	text-align: center;
+	font-size: 25px;
+	width:300px;
+	margin:10px auto;
+
+}
+header{
+	margin-top:20px;
+
+}
+.resume{
+	margin-top:15px;
+	padding-top: 15px;
+	border-top: 5px solid #AAA;
+}
+#score_points, #category_letter{
+	color: #FF0228;
+}
+button{
+	background-color:#44c767;
+	border:1px solid #18ab29;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:19px;
+	padding:12px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+	box-align:center;
+	margin:10px 10px 0 auto;
+}
+
+button:hover {
+	background-color:#5cbf2a;
+}
+button:active {
+	position:relative;
+	top:1px;
+}
+.buttons{
+	display:flex;
+	justify-content: space-between;
+	width:60%;
+	margin:10px 5px 0px auto;
+}
+#difficulty{
+	text-transform:uppercase
+}
+input{
+	width:150px;
+}
+
+
+
+
+@media(max-width:640px){
+	@import url('https://fonts.googleapis.com/css?family=Spartan:400,500,600,700,800,900&display=swap');
+	.box{
+		width:85%;
+		background-color: white;
+		padding: 20px;
+		border-radius:30px;
+		box-align:center;
+		margin:0 auto;
+		
+	}
+	
+	table{
+		height:500px;
+
+	}
+	input{
+		height: 50px;
+		line-height: 50px;
+		font-size:30px;
+		width:150px;
+
+
+	}
+
+	body{
+		max-width: 640px;
+	background-color: #00ae4a;
+
+	font-family: 'Spartan', sans-serif;
+	font-weight: bolder; 
+	}
+	header, footer{
+	text-align: center;
+	font-size: 25px;
+
+	}
+	header{
+	margin-top:20px;
+
+	}
+	.resume{
+		margin-top:15px;
+		padding-top: 15px;
+		border-top: 5px solid #AAA;
+	}
+	#score_points, #category_letter{
+		color: #FF0228;
+	}
+	button{
+		background-color:#44c767;
+		border:1px solid #18ab29;
+		cursor:pointer;
+		color:#ffffff;
+		font-family:Arial;
+		font-size:19px;
+		padding:12px 25px;
+		text-decoration:none;
+		text-shadow:0px 1px 0px #2f6627;
+		box-align:center;
+	margin:10px 10px 0 auto;
+	}
+	
+
+	.buttons{
+		display:flex;
+		justify-content: space-between;
+		width:100%;
+		margin:10px auto;
+	}
+	select{
+		height: 50px;
+	}
+
+}
